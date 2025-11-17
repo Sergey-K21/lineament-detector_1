@@ -12,7 +12,7 @@ from typing import Tuple, Dict, Optional
 from rasterio.transform import Affine
 
 
-class LineamentDetector:
+class Lineament_Detector:
     def __init__(self, min_length_pixels: int = 300,
                  canny_sigma: float = 0.8,
                  simplify_tolerance: float = 2.0):
